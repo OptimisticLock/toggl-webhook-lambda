@@ -29,7 +29,7 @@ export const handler = async (
 
   // Constructing the response object with detailed request information
   const responseBody = {
-    message: 'Request received successfully! 🤖🤖🤖',
+    message: 'Request received successfully! 🤖', 
     requestDetails: {
       method: requestContext.http.method,
       path: requestContext.http.path,
