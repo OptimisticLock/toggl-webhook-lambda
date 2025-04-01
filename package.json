@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start:lambda": "node --enable-source-maps node_modules/aws-lambda-ric/dist/index.mjs dist/handler.handler",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.148",
     "@types/node": "^22.13.14",
+    "aws-lambda-ric": "^3.2.1",
     "typescript": "^5.8.2"
   },
   "dependencies": {
